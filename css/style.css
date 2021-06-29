@@ -1,0 +1,176 @@
+html, body {
+    background-color: #F8F9FA;
+}
+
+/* CONTAINER */
+.container {
+    background-color: #EFF0F1;
+    height: 100vh;
+}
+
+/* NAVBAR */
+.container .navbar h1 {
+    color: #2C698F;
+    font-weight: bolder;
+}
+
+.container .navbar ul{
+    height: 39px;
+}
+
+.container .navbar ul input{
+    height: 100%;
+}
+
+.container .navbar ul li:nth-of-type(1) button {
+    background-color: #2C698F;
+    border-color: #2C698F;
+    outline: none;
+    border-radius: 0;
+    margin-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.container .navbar ul li:nth-of-type(3) button {
+    background-color: #2C698F;
+    border-color: #2C698F;
+    outline: none;
+    border-radius: 0;
+    margin-left: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* BIG-BOX */
+.container .big-box {
+    padding-top: 30px;
+    overflow-x: auto;
+    white-space:nowrap;
+    padding-bottom: 40px;
+    display: flex;
+}
+
+.container .big-box .box {
+    background-color: #fff;
+    width: 250px;
+    box-shadow: 0 0 10px grey;
+    margin-right: 20px;
+    margin-top: 20px;
+    position: relative;
+    flex: none;
+}
+
+/* HEADER-BOX */
+.container .big-box .box .header {
+    background-color: #386D94;
+    line-height: 40px;
+    padding-right: 10px;
+    padding-left: 10px;
+    display: flex;
+}
+
+.container .big-box .box .header:nth-child(2) input {
+    width: 70%;
+    border-radius: 0%;
+}
+
+.container .big-box .box .header:nth-child(2) i {
+    font-size: 20px;
+    color: #fff;
+    margin-left: auto;
+    padding-bottom: 8px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.container .big-box .box .header span:nth-child(1) {
+    color: #fff;
+    cursor: pointer;
+}
+
+.container .big-box .box .header .header-icon {
+    display: inline-block;
+    margin-left: auto;
+    color: #fff;
+    font-size: 20px;
+}
+
+.container .big-box .box .header .header-icon span {
+   margin-left: 8px;
+   cursor: pointer;
+}
+
+/* CONTENT-BOX */
+.container .big-box .content {
+    height: 350px;
+    margin-top: 10px;
+}
+
+.container .big-box .content input[type=text]{
+    margin: auto;
+    width: 92%;
+}
+
+.container .big-box .content > div {
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+}
+
+.container .big-box .content > div label{
+    margin-bottom: 0;
+    margin-left: 15px;
+    padding-top: 7px;
+    color: grey;
+    cursor: pointer;
+}
+
+.container .big-box .content span {
+    margin-left: auto;
+    color: grey;
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+input[type=checkbox] {
+    position: relative;
+    cursor: pointer;
+}
+
+input[type=checkbox]:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 0;
+    left: 0;
+    border: 2px solid grey;
+    border-radius: 3px;
+    background-color: white;
+}
+
+input[type=checkbox]:checked:after {
+    content: "";
+    display: block;
+    width: 8px;
+    height: 12px;
+    border: solid grey;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 2px;
+    left: 6px;
+}
+
+.text-line-through {
+    text-decoration: line-through;
+}
+
+
+
+
